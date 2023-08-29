@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- Coding By EBSouza -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Simple form | EBSouza</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Simple Form App</h1>
+    <h2>Hint: Please, write in the textarea below.</h2>
+    <form id="form" method="POST" accept-charset="UTF-8">
+      <p><textarea id="text" required></textarea></p>
+      <p><input type="submit" value="Submit"></p>
+    </form>
+  </div>
+  <div id="my-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="model-text"></p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
